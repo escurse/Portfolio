@@ -2,35 +2,10 @@
     margin-left: var(--nav-width);
 }
 
-#main > .stretch {
+#main > .stretch-line {
     margin-top: 1rem;
     padding: 0.1rem;
     height: 0.1rem;
     background-color: #2e2e2f;
-}
-
-#main > .list-container {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#main > .list-container > .stretch {
     flex-grow: 1;
-}
-
-#main > .list-container > .career-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#main > .list-container > .career-container > .text {
-    max-width: 35rem;
-}
-
-#main > .list-container > .career-container > .image {
-    width: 5rem;
 }
