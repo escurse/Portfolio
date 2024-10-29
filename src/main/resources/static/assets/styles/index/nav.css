@@ -1,0 +1,48 @@
+#nav {
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    gap: 4rem;
+    background-color: #ffffff;
+    border: 1rem solid #46f6f6;
+}
+
+#nav > .introduce-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+#nav > .introduce-container > .image {
+    width: 10rem;
+}
+
+#nav > .introduce-container > .text {
+    font-size: 2rem;
+}
+
+#nav > .link {
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#nav > .button {
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+#nav > .link {
+    text-decoration: none;
+}
+
+
