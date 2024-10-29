@@ -14,9 +14,4 @@ public class PofolService {
         modelAndView.setViewName("pofol/index");
         return modelAndView;
     }
-
-    @RequestMapping(value="/escass.com", method=RequestMethod.POST)
-    public ModelAndView postIndex() {
-        return new ModelAndView("pofol/index");
-    }
 }
