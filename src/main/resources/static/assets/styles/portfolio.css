@@ -30,6 +30,7 @@ ul, li {
 
 .stretch {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: var(--nav-width);
     padding: 0.1rem;
     height: 0.1rem;
