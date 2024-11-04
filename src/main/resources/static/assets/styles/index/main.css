@@ -10,3 +10,14 @@
     background-color: #2e2e2f;
     flex-grow: 1;
 }
+
+#main > .skill-container > .img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#main > .skill-container > .img-container > .item {
+    margin-left: 5rem;
+    height: 6.5rem;
+    width: 10rem;
+}
