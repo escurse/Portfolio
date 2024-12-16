@@ -1,9 +1,0 @@
-@charset "UTF-8";
-@import "./index/footer.css";
-@import "./index/header.css";
-@import "./index/main.css";
-@import "./index/nav.css";
-
-:root {
-    --nav-width: 15rem;
-}

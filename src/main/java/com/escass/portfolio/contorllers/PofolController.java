@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-@RequestMapping(value="")
+@RequestMapping(value="/")
 public class PofolController {
-    @RequestMapping(value="/escass.com", method= RequestMethod.GET, produces = MediaType.TEXT_HTML_VALUE)
+    @RequestMapping(value="/", method= RequestMethod.GET, produces = MediaType.TEXT_HTML_VALUE)
     public ModelAndView getIndex() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("pofol/index");
+        modelAndView.setViewName("home/index");
         return modelAndView;
     }
 }

@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>박재형의 포트폴리오</title>
+    <link rel="shortcut icon" th:href="@{./assets/images/포트폴리오%20아이콘.png}">
+    <link rel="stylesheet" th:href="@{./assets/styles/common.css}" type="text/css">
+    <script defer th:src="@{./assets/scripts/index.js}" type="text/javascript"></script>
+</head>
+<body>
+<main id="main">
+    <div class="container">
+        <div class="introduce nav" data-id="introduce">
+            <div class="introduce-container" data-id="introduce">
+                <div class="small-container">
+                    <div class="h1">안녕하세요</div>
+                    <div class="h1">백엔드 개발자를 꿈꾸고 있는</div>
+                    <div class="h1">박재형이라고 합니다.</div>
+                </div>
+                <div class="small-container">
+                    <div class="h1 header">자격증</div>
+                    <div class="qualification-container">
+                        <div class="item">1종보통 운전면허</div>
+                        <div class="item">컴퓨터 활용 능력 1급</div>
+                    </div>
+                </div>
+            </div>
+            <div class="introduce-container">
+                <div class="h1 header">경력</div>
+                <div class="career-container">
+                    <div class="container">
+                        <img class="item" th:src="@{./assets/images/영남대학교png.png}" alt="">
+                        <div class="introduce university">영남대학교</div>
+                        <div class="introduce period">2017.03.01 ~ 2024.02.22</div>
+                        <div class="introduce text">건설시스템공학과 졸업</div>
+                    </div>
+                    <div class="container">
+                        <img th:src="@{./assets/images/코리아it아카데미.png}" alt="" class="item korea">
+                        <div class="introduce academy">코리아IT아카데미</div>
+                        <div class="introduce period">2024.08.30 ~ 2025.01.20</div>
+                        <div class="introduce text">임베디드 소프트웨어 융합 풀스택 개발자 양성과정 수료</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills nav hidden" data-id="skills">
+            <div class="front item-container">
+                <div class="text">프론트 엔드</div>
+                <div class="container">
+                    <img class="item" th:src="@{./assets/images/HTML5.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="80" min="0" max="100"></progress>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="item css" th:src="@{./assets/images/CSS3.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="70" min="0" max="100"></progress>
+                        <span>70%</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="item" th:src="@{./assets/images/js.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="50" min="0" max="100"></progress>
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="lang item-container">
+                <div class="text">프로그래밍 언어</div>
+                <div class="container">
+                    <img class="item" th:src="@{./assets/images/java.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="60" min="0" max="100"></progress>
+                        <span>60%</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="item" th:src="@{./assets/images/python.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="30" min="0" max="100"></progress>
+                        <span>30%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="back item-container">
+                <div class="text">백 엔드</div>
+                <div class="container">
+                    <img class="item" th:src="@{./assets/images/mariaDB.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="80" min="0" max="100"></progress>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="container">
+                    <img class="item spring" th:src="@{./assets/images/spring boot.png}" alt="">
+                    <div class="progress-bar">
+                        <progress class="progress" value="80" min="0" max="100"></progress>
+                        <span>80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project nav hidden" data-id="project">
+            <div class="project-container">
+                <div class="head">
+                    <div class="h1">프로젝트 제목:
+                        <span class="name">JGV</span>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="header">
+                        <img class="jgv" th:src="@{./assets/images/JGV.png}" alt="프로젝트">
+                    </div>
+                    <div class="body">
+                        <div class="container">
+                            <a href="https://github.com/kimjonguk1/Team_Project" class="github" target="_blank">https://github.com/kimjonguk1/Team_Project</a>
+                            <div class="info">CGV의 주요 기능을 클론하여 영화 예매 웹사이트 제작</div>
+                            <div class="info">사용기술: HTML/CSS/JavaScript, Java, SpringBoot, MariaDB</div>
+                            <div class="info">인원: 4명</div>
+                            <div class="info">개발기간: 5주</div>
+                        </div>
+                        <div class="container">
+                            <div class="header">
+                                <div class="h1">담당한 부분</div>
+                            </div>
+                            <div class="theater-container">
+                                <div class="theater">
+                                    <div class="header">
+                                        <div class="info">영화관</div>
+                                    </div>
+                                    <div class="theater info">
+                                        <div class="content">영화관 정보 불러오기</div>
+                                        <div class="content">영화관에 존재하는 상영 정보 불러오기</div>
+                                    </div>
+                                </div>
+                                <div class="theater">
+                                    <div class="header">
+                                        <div class="info">상영정보</div>
+                                    </div>
+                                    <div class="screen info">
+                                        <div class="content">상영 정보를 크롤링을 통해 가져오기</div>
+                                        <div class="content">조건에 맞는 상영 정보 불러오기</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact nav hidden" data-id="contact">
+            <div class="contact-container">
+                <div class="containers">
+                    <div class="text">이름: 박재형</div>
+                </div>
+                <div class="containers">
+                    <div class="text">생년월일: 1998.10.09</div>
+                </div>
+                <div class="containers">
+                    <a href="https://github.com/escurse/" class="text" target="_blank">깃허브</a>
+                    <a href="https://github.com/escurse/" class="item" target="_blank">
+                        <img th:src="@{./assets/images/github.png}" alt="깃허브" class="github">
+                    </a>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="containers">
+                    <div class="text">이메일: av1967@naver.com</div>
+                </div>
+                <div class="containers">
+                    <div class="text">연락처: 010-9273-1967</div>
+                </div>
+                <div class="containers">
+                    <a href="https://escass.tistory.com/" class="text-story" target="_blank">티스토리</a>
+                    <a href="https://escass.tistory.com/" class="item" target="_blank">
+                        <img th:src="@{./assets/images/티스토리.png}" alt="티스토리" class="story">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <span id="nav">
+            <img class="item" th:src="@{./assets/images/박재형.jpg}" alt="얼굴 사진">
+            <label class="label">
+                <span class="text" data-id="introduce">Introduce</span>
+            </label>
+            <label class="label">
+                <span class="text" data-id="skills">Skills</span>
+            </label>
+            <label class="label">
+                <span class="text" data-id="project">Project</span>
+            </label>
+            <label class="label">
+                <span class="text" data-id="contact">Contact</span>
+            </label>
+        </span>
+    </div>
+</main>
+</body>
+</html>
